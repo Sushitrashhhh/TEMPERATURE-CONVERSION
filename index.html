@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--<h1>WOW</h1>-->
+    
+    <form>
+        <h1>TEMPERATURE CONVERSION:</h1>
+        <input type="number" id="textBox" value="0"><br>
+
+        <input type="radio" id="Fahrenheit" name="unit">
+        <lable for="Fahrenheit"> Celsius -> Fahrenheit</lable><br>
+
+        <input type="radio" id="Celsius" name="unit">
+        <lable for="Fahrenheit"> Fahrenheit -> Celsius</lable><br>
+
+        <button type="button" onclick="convert()">Submit</button>
+        <p id="result"></p>
+    </form>
+
+    <script src="tempCon.js"></script>
+</body>
+</html>
